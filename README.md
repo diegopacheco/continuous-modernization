@@ -80,7 +80,9 @@ Code samples here are mainly in Java.
 
 You won't find a complete application end-2-end here. The code samples are a way to explain patterns and anti-patterns in the sense of design and architecture. There is no goal to have a fully functional application or service whatsoever.
 
-### Previous recommended book Principles of Software Architecture Modernization (POSAM)
+### Previous recommended book
+
+Principles of Software Architecture Modernization (POSAM)
 
 BPB: https://bpbonline.com/products/principles-of-software-architecture-modernization <BR/><BR/>
 Amazon: https://www.amazon.com/Principles-Software-Architecture-Modernization-microservices-ebook/dp/B0CP95X2GV/ref=sr_1_1?crid=3JNWE3JNJDR6&keywords=Principles+of+Software+Architecture+Modernization&qid=1701557697&sprefix=principles+of+software+architecture+modernization%2Caps%2C139&sr=8-1
