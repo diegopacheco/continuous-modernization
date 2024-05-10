@@ -1,7 +1,7 @@
 # continuous-modernization
 Continuous-Modernization book
 
-### About the author
+### About the co-author
 
 Diego Pacheco(https://diegopacheco.github.io/) is a seasoned, experienced Brazilian software architect,
 author, speaker, technology mentor, and DevOps practitioner with more than 20+ years of
