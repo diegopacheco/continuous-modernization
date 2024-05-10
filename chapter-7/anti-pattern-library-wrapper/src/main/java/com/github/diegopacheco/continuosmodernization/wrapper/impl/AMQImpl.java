@@ -9,6 +9,7 @@ import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 
+import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 /**
@@ -16,7 +17,7 @@ import java.nio.charset.StandardCharsets;
  * All the bad decisions here are done by design to demonstrate bade decisions and antimatter.
  * This is not a code example to be copied or even followed, this is how you not do it.
  */
-public class AMQImpl implements AMQClient {
+public final class AMQImpl implements AMQClient {
 
     private static ChannelSender sender;
 
@@ -56,16 +57,21 @@ public class AMQImpl implements AMQClient {
             // Create a channel
             Channel channel = conn.createChannel();
 
+            final String finalUser = user;
             sender.send(conn, channel, new MessageCallback() {
                 @Override
                 public void prepare(Connection conn, Channel channel) {
                     byte[] messageBodyBytes = "Hello, world!".getBytes(StandardCharsets.UTF_8);
-                    channel.basicPublish("",String.valueOf(Channels.DEFAULT_CHANNEL), true,
-                            new AMQP.BasicProperties.Builder()
-                                    .contentType("text/plain")
-                                    .userId(user)
-                                    .build(),
-                            messageBodyBytes);
+                    try {
+                        channel.basicPublish("",String.valueOf(Channels.DEFAULT_CHANNEL), true,
+                                new AMQP.BasicProperties.Builder()
+                                        .contentType("text/plain")
+                                        .userId(finalUser)
+                                        .build(),
+                                messageBodyBytes);
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
                 }
             });
 
