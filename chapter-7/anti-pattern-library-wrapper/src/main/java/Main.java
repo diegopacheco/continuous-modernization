@@ -1,4 +1,4 @@
-import com.github.diegopacheco.continuosmodernization.wrapper.impl.AMQImpl;
+import com.github.antipatterns.continuous.modernization.wrapper.impl.AMQImpl;
 
 public class Main{
   public static void main(String args[]){

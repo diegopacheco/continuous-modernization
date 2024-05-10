@@ -1,4 +1,4 @@
-package com.github.diegopacheco.continuosmodernization.wrapper;
+package com.github.antipatterns.continuous.modernization.wrapper;
 
 public interface AMQClient {
     public AMQClient init();

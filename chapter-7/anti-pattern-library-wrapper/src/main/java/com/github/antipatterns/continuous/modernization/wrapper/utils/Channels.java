@@ -1,4 +1,4 @@
-package com.github.diegopacheco.continuosmodernization.wrapper.utils;
+package com.github.antipatterns.continuous.modernization.wrapper.utils;
 
 public enum Channels {
 

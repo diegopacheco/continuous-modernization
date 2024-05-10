@@ -1,4 +1,4 @@
-package com.github.diegopacheco.continuosmodernization.wrapper.channel;
+package com.github.antipatterns.continuous.modernization.wrapper.channel;
 
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;

@@ -1,9 +1,9 @@
-package com.github.diegopacheco.continuosmodernization.wrapper.impl;
+package com.github.antipatterns.continuous.modernization.wrapper.impl;
 
-import com.github.diegopacheco.continuosmodernization.wrapper.AMQClient;
-import com.github.diegopacheco.continuosmodernization.wrapper.channel.ChannelSender;
-import com.github.diegopacheco.continuosmodernization.wrapper.channel.MessageCallback;
-import com.github.diegopacheco.continuosmodernization.wrapper.utils.Channels;
+import com.github.antipatterns.continuous.modernization.wrapper.AMQClient;
+import com.github.antipatterns.continuous.modernization.wrapper.channel.ChannelSender;
+import com.github.antipatterns.continuous.modernization.wrapper.channel.MessageCallback;
+import com.github.antipatterns.continuous.modernization.wrapper.utils.Channels;
 import com.rabbitmq.client.AMQP;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
