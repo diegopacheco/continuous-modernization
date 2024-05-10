@@ -1,4 +1,4 @@
-# continuous-modernization
+# Continuous Modernization
 Continuous-Modernization book
 
 ### About the co-author
@@ -13,7 +13,7 @@ for more than a decade. Live, breathe, and practice real agile since 2005, coach
 have helped many companies to discover better ways to work using Lean, Agile principles, and
 methods like XP and DTA. I've led complex architecture teams and engineering teams at
 scale guided by SOA principles, using a variety of open-source languages like Java, Scala,
-Rust, Go, Python, Groovy, JavaScript, and TypeScript, cloud providers like AWS Cloud and
+Rust, Go, Python, Groovy, JavaScript, and TypeScript; cloud providers like AWS Cloud and
 Google GCP, amazing solutions like Akka, ActiveMQ, Netty, Tomcat, and Gatling, NoSQL
 databases like Cassandra, Redis, Elasticache Redis, Elasticsearch, Opensearch, RabbitMQ,
 libraries like Spring, Hibernate, and Spring Boot and also the NetflixOSS Stack: Simian
