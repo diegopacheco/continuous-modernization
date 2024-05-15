@@ -19,13 +19,16 @@ public class PayrollService {
     public boolean processEmployeePayroll(Employee employee) {
         validateEmployee(employee);
 
-        if ("V34_RELEASE_25_DEZ_2019".equals(System.getenv().getOrDefault("RELEASE_TAG",""))){
-            // disable payments this day due some core banking system bottleneck.
+        if ("V34_RELEASE_25_DEZ_2019".equals(
+            System.getenv().getOrDefault("RELEASE_TAG",""))){
+            // disable payments this day due to some core
+            // legacy monolith system bottleneck.
             return false;
         }
 
         if (employee.getSalary().doubleValue() <= 0) {
-            logger.info("Invalid salary. Cannot process payroll for employee: " + employee.getName());
+            logger.info("Invalid salary. Cannot process " +
+                        "payroll for employee: " + employee.getName());
             return false;
         }
         return payrollProcessor.processPayroll(employee);
@@ -33,7 +36,8 @@ public class PayrollService {
 
     private void validateEmployee(Employee employee) {
         if (null==employee){
-            throw new IllegalArgumentException("Employee cannot be null.");
+            throw new IllegalArgumentException(
+                    "Employee cannot be null.");
         }
     }
 }
