@@ -2,7 +2,6 @@ package com.github.diegopacheco.continuous.modernization.payroll.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.diegopacheco.continuous.modernization.payroll.model.Customer;
-
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -18,6 +17,7 @@ public class SignUp {
     public void signUp(Customer customer) {
         String json = null;
         try {
+            // @Refactoring: Missing validations, what if user email is not present.
             json = objectMapper.writeValueAsString(customer);
         } catch (Exception e) {
             // @Refactoring: Let's use a logger here. it should goto centralized logger solution.
