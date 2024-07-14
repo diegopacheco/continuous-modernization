@@ -11,7 +11,7 @@ import java.time.Instant;
 
 public class OfflinePaymentProcessorToBeDeleted implements PayrollProcessor {
 
-    private Logger logger = LogManager.getLogger(PayrollService.class);
+    private Logger logger = LogManager.getLogger(OfflinePaymentProcessorToBeDeleted.class);
 
     @Override
     public boolean processPayroll(Employee employee) {
