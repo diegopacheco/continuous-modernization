@@ -1,6 +1,8 @@
 # Continuous Modernization
 Continuous-Modernization book
 
+Buy on amazon: [https://www.amazon.com/Continuous-Modernization-never-ending-microservices-distributed/dp/9365893100/ref=sr_1_1?crid=P1ML4NEL2N70&dib=eyJ2IjoiMSJ9.J_brujm5GefCBIFnTLzbkHqeuONdzVIU5HOOXwu2RnYGPnTMLlpGcfXmpoj7VF2h58PNoEXMYfPL0Txlk2_HOA.K1BB4Iy-bZ-HTaV1mTpbFBsxaGCr_0rIPjFh36T85f8&dib_tag=se&keywords=continuous+modernization&qid=1732767473&sprefix=continuous+modernization%2Caps%2C187&sr=8-1](https://www.amazon.com/Continuous-Modernization-never-ending-microservices-distributed/dp/9365893100/ref=sr_1_1?crid=P1ML4NEL2N70&dib=eyJ2IjoiMSJ9.J_brujm5GefCBIFnTLzbkHqeuONdzVIU5HOOXwu2RnYGPnTMLlpGcfXmpoj7VF2h58PNoEXMYfPL0Txlk2_HOA.K1BB4Iy-bZ-HTaV1mTpbFBsxaGCr_0rIPjFh36T85f8&dib_tag=se&keywords=continuous+modernization&qid=1732767473&sprefix=continuous+modernization%2Caps%2C187&sr=8-1)
+
 ### About the co-author
 
 Diego Pacheco(https://diegopacheco.github.io/) is a seasoned, experienced Brazilian software architect,
@@ -67,10 +69,6 @@ hiking, and spending time with his family and kids, fitting in video games when 
 permits.
 Sam currently serves as the architecture and consumer engineering lead of a FinTech
 company based in the Bay Area
-
-### About the Tech Reviewer
-
-TODO
 
 ### About the repository
 
